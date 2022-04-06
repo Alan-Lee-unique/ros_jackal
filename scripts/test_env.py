@@ -39,7 +39,7 @@ def main():
                       "TrajectoryPlannerROS/goal_distance_bias", 
                       "inflation_radius"],
         world_name='BARN/world_0.world',
-        gui=False,
+        gui=True,
         init_position=[-2, 3, 1.57],
         goal_position=[0, 10, 0]
     )
